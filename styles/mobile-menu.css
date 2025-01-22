@@ -1,0 +1,43 @@
+.mobile-navigation {
+  display: none;
+  position: relative;
+}
+
+.mobile-navigation-toggler {
+  display: none;
+}
+
+.mobile-navigation-menu {
+  display: none;
+}
+
+.mobile-navigation-toggler:checked + .mobile-navigation-menu {
+  display: block;
+  padding: 60px 30px;
+  height: 100vh;
+}
+
+
+
+.mobile-navigation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 2rem;
+  color: var(--color-second);
+}
+
+.mobile-navigation-burger, .mobile-navigation-cross {
+  position: absolute;
+  right: 30px;
+  top: 60px;
+  width: 33px;
+  cursor: pointer;
+}
+
+@media (max-width: 426px) {
+  .mobile-navigation {
+    display: block;
+   }
+  
+}

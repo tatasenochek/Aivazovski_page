@@ -35,6 +35,35 @@
     </nav>
   </header>
 
+  <div class="mobile-navigation" aria-label="mobile-navigation">
+    <label class="mobile-navigation-open" for="toggler-id" aria-label="open-close mobile-navigation menu">
+      <img class="mobile-navigation-burger" src="./assets/icon/Open_menu.svg" alt="open menu">
+    </label>
+    <input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
+    <nav class="mobile-navigation-menu" aria-label="mob header navigation">
+      <ul class="mobile-navigation-list" aria-label="mob header navigation list">
+        <li>
+          <a href="#home" class="mobile-navigation-link" aria-label="link to home">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="mobile-navigation-link" aria-label="link to about">About</a>
+        </li>
+        <li>
+          <a href="#history" class="mobile-navigation-link" aria-label="link to history">History</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="mobile-navigation-link" aria-label="link to portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contacts" class="mobile-navigation-link" aria-label="link to contacts">Contacts</a>
+        </li>
+      </ul>
+      <label for="toggler-id" class="mobile-navigation-close" aria-label="open-close mobile-navigation menu">
+        <img class="mobile-navigation-cross" src="./assets/icon/Close_menu.svg" alt="Close menu">
+      </label>
+    </nav>
+  </div>
+
   <main class="main" aria-label="main">
     <section id="home" class="home container" aria-label="home section">
       <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
@@ -94,7 +123,9 @@
 
   <footer id="contacts" class="footer container">
     <h2 class="footer-title" aria-label="footer title">Contacts</h2>
-    <a class="footer-link" aria-label="link to website" href="https://ru.wikipedia.org/wiki/%D0%90%D0%B9%D0%B2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87" target="_blank">ayvazovskiy.su</a>
+    <a class="footer-link" aria-label="link to website"
+      href="https://ru.wikipedia.org/wiki/%D0%90%D0%B9%D0%B2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87"
+      target="_blank">ayvazovskiy.su</a>
     <ul class="footer-list" aria-label="footer list">
       <li>
         <a href="#" class="social-link" aria-label="social link">
