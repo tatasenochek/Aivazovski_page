@@ -1,0 +1,41 @@
+.home {
+  padding-block-start: 47px;
+  padding-block-end: 70px;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.home-description {
+  text-align: center;
+  padding-block-start: 25px;
+  padding-block-end: clamp(1.75rem, 1.176vw + 1.474rem, 2.188rem);
+}
+
+.home-image {
+  object-fit: cover;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 490px;
+}
+
+@media (max-width: 426px) {
+  .home {
+    padding-block-start: 65px;
+  }
+
+  .home-title {
+    text-align: left;
+    max-width: 239px;
+    font-size: 2rem;
+  }
+  
+  .home-description {
+    text-align: left;
+  }
+}

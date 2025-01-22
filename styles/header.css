@@ -1,0 +1,40 @@
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 25px 30px;
+  border-bottom: 1px solid var(--bg-second);
+}
+
+.navigation-link {
+  font-weight: 700;
+  color: var(--color-second);
+  position: relative;
+  transition: color .2s;
+}
+
+.navigation-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  background-color: var(--color-font);
+  transition: width .2s;
+}
+
+.navigation-link:hover::after {
+  width: 100%;
+}
+
+
+.navigation-link:hover {
+  color: var(--color-font);
+}
+
+@media (max-width: 426px) {
+  .navigation-list {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.about {
+  background-color: var(--bg-second);
+}
+
+.about-subtitle {
+  text-align: center;
+  font-size: clamp(0.875rem, 0.672vw + 0.717rem, 1.125rem);
+  font-weight: 500;
+  padding-block-end: 10px;
+  width: clamp(19.688rem, 78.992vw + 1.174rem, 49.063rem);
+  margin: 0 auto;
+}
+
+.about-description {
+  text-align: justify;
+}
+
+.divider {
+  width: clamp(18.75rem, 20.168vw + 14.023rem, 26.25rem);
+  margin: 20px auto;
+}
