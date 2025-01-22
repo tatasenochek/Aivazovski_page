@@ -1,0 +1,15 @@
+.portfolio {
+  background-color: var(--bg-second);
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3.125rem, 7.563vw + 1.352rem, 5.938rem);
+}
+
+.portfolio-image {
+  width: 100%;
+  min-height: 206px;
+  object-fit: contain;
+}

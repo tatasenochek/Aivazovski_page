@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -24,11 +28,12 @@ body {
 .container {
   margin: 0 auto;
   max-width: 970px;
-  padding: 0 10px;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
 }
 
 .section {
-  padding-block-start: 47px;
+  padding-block-start: 50px;
   padding-block-end: 70px;
 }
 
@@ -38,4 +43,9 @@ body {
   line-height: 1.2;
   text-align: center;
   padding-block-end: 40px;
+}
+
+.photo-description {
+  padding-block-start: 30px;
+  text-align: center;
 }

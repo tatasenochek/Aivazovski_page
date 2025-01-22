@@ -17,45 +17,108 @@
     <nav class="navigation" aria-label="header navigation">
       <ul class="navigation-list" aria-label="header navigation list">
         <li>
-          <a href="#" class="navigation-link" aria-label="link to Home">Home</a>
+          <a href="#home" class="navigation-link" aria-label="link to Home">Home</a>
         </li>
         <li>
-          <a href="#" class="navigation-link" aria-label="link to About">About</a>
+          <a href="#about" class="navigation-link" aria-label="link to About">About</a>
         </li>
         <li>
-          <a href="#" class="navigation-link" aria-label="link to History">History</a>
+          <a href="#history" class="navigation-link" aria-label="link to History">History</a>
         </li>
         <li>
-          <a href="#" class="navigation-link" aria-label="link to Portfolio">Portfolio</a>
+          <a href="#portfolio" class="navigation-link" aria-label="link to Portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#" class="navigation-link" aria-label="link to Contacts">Contacts</a>
+          <a href="#contacts" class="navigation-link" aria-label="link to Contacts">Contacts</a>
         </li>
       </ul>
     </nav>
   </header>
 
   <main class="main" aria-label="main">
-    <section class="home container" aria-label="home section">
+    <section id="home" class="home container" aria-label="home section">
       <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
       <p class="home-description" aria-label="description">Russian marine painter of Armenian origin, collector,
         philanthropist</p>
       <img src="./assets/image/hero.webp" alt="photo of Aivazovski" class="home-image">
     </section>
-    <section class="about section" aria-label="about section">
+    <section id="about" class="about section" aria-label="about section">
       <div class="container">
         <h2 class="title" aria-label="about title">About</h2>
-        <h3 class="about-subtitle" aria-label="about subtitle">Ива́н Константи́нович Айвазо́вский – русский живописец-маринист армянского происхождения, коллекционер, меценат.</h3>
-        <p aria-label="about description" class="about-description">Будучи художником с мировой известностью, Иван Константинович Айвазовский предпочитал жить и работать на своей родине — в Крыму. Айвазовский наиболее известен своими морскими пейзажами, которые составляют больше половины его работ. Художник считается одним из величайших маринистов всех времён.</p>
+        <h3 class="about-subtitle" aria-label="about subtitle">Ива́н Константи́нович Айвазо́вский – русский
+          живописец-маринист армянского происхождения, коллекционер, меценат.</h3>
+        <p aria-label="about description" class="about-description">Будучи художником с мировой известностью, Иван
+          Константинович Айвазовский предпочитал жить и работать на своей родине — в Крыму. Айвазовский наиболее
+          известен своими морскими пейзажами, которые составляют больше половины его работ. Художник считается одним из
+          величайших маринистов всех времён.</p>
         <hr class="divider">
-        <h3 class="about-subtitle" aria-label="about subtitle">Ivan Konstantinovich Aivazovsky - Russian marine painter of Armenian origin, collector, philanthropist.</h3>
-        <p aria-label="about description" class="about-description">Being a world famous artist, Ivan Konstantinovich Aivazovsky preferred to live and work in his homeland - in the Crimea. Aivazovsky is best known for his seascapes, which make up more than half of his work. The artist is considered one of the greatest marine painters of all time.</p>
+        <h3 class="about-subtitle" aria-label="about subtitle">Ivan Konstantinovich Aivazovsky - Russian marine painter
+          of Armenian origin, collector, philanthropist.</h3>
+        <p aria-label="about description" class="about-description">Being a world famous artist, Ivan Konstantinovich
+          Aivazovsky preferred to live and work in his homeland - in the Crimea. Aivazovsky is best known for his
+          seascapes, which make up more than half of his work. The artist is considered one of the greatest marine
+          painters of all time.</p>
       </div>
-
+    </section>
+    <section id="history" class="history section container" aria-label="history section">
+      <h2 class="title" aria-label="history title">History</h2>
+      <img class="history-image" src="./assets/image/history.webp" alt="Aivazovsky's house">
+      <p aria-label="history description" class="photo-description">
+        Дом в котором родился Айвазовский | The house where Aivazovsky was born
+      </p>
+    </section>
+    <section id="portfolio" class="portfolio section" aria-label="portfolio section">
+      <div class="container">
+        <h2 class="title" aria-label="portfolio title">Portfolio</h2>
+        <ul class="portfolio-list" aria-label="portfolio list">
+          <li>
+            <img class="portfolio-image" src="./assets/image/portfolio_1.webp"
+              alt="Зимний обоз в пути | Winter wagon train on the way">
+            <p aria-label="history description" class="photo-description">Зимний обоз в пути, 1857 г. | Winter wagon
+              train on the way, 1857</p>
+          </li>
+          <li>
+            <img class="portfolio-image" src="./assets/image/portfolio_2.webp" alt="Радуга | Rainbow">
+            <p aria-label="history description" class="photo-description">Радуга, 1873 г. | Rainbow, 1873</p>
+          </li>
+          <li>
+            <img class="portfolio-image" src="./assets/image/portfolio_3.webp"
+              alt="Неаполитанский залив утром| Gulf of Naples in the morning">
+            <p aria-label="history description" class="photo-description">Неаполитанский залив утром, 1893 г. | Gulf of
+              Naples in the morning, 1893</p>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
 
-  <footer></footer>
+  <footer id="contacts" class="footer container">
+    <h2 class="footer-title" aria-label="footer title">Contacts</h2>
+    <a class="footer-link" aria-label="link to website" href="https://ru.wikipedia.org/wiki/%D0%90%D0%B9%D0%B2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9,_%D0%98%D0%B2%D0%B0%D0%BD_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87" target="_blank">ayvazovskiy.su</a>
+    <ul class="footer-list" aria-label="footer list">
+      <li>
+        <a href="#" class="social-link" aria-label="social link">
+          <img class="social-image" src="./assets/icon/YouTube_ICO.svg" alt="icon YouTube">
+        </a>
+      </li>
+      <li>
+        <a href="#" class="social-link" aria-label="social link">
+          <img class="social-image" src="./assets/icon/Instagram_ICO.svg" alt="icon Instagram">
+        </a>
+      </li>
+      <li>
+        <a href="#" class="social-link" aria-label="social link">
+          <img class="social-image" src="./assets/icon/Linkedin_ICO.svg" alt="icon Linkedin">
+        </a>
+      </li>
+      <li>
+        <a href="#" class="social-link" aria-label="social link">
+          <img class="social-image" src="./assets/icon/Facebook_ICO.svg" alt="icon Facebook">
+        </a>
+      </li>
+    </ul>
+    <p class="footer-description" aria-label="footer description">More works you can see in these social networks</p>
+  </footer>
 </body>
 
 </html>
